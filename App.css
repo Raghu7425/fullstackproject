@@ -1,0 +1,179 @@
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #ffffff, #f2f6fc);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+/* Header Title */
+.title {
+  background: #2c3e50;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* Table */
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.expense-table thead {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.expense-table th,
+.expense-table td {
+  padding: 14px 18px;
+  border: 1px solid #e0e0e0;
+}
+
+.expense-table tbody tr:hover {
+  background-color: #f1faff;
+  transition: background 0.2s;
+}
+
+.expense-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Form Title */
+.form-title {
+  font-size: 1.3rem;
+  background: #dfe6e9;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Input Styles */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-field {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.2s;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Buttons */
+.add-button,
+.edit-button,
+.update-button,
+.delete-button {
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.add-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.add-button:hover {
+  background-color: #218838;
+  transform: scale(1.03);
+}
+
+.update-button {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.update-button:hover {
+  background-color: #e0a800;
+  transform: scale(1.03);
+}
+
+.edit-button {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #138496;
+  transform: scale(1.03);
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+  transform: scale(1.03);
+}
+
+/* Action Buttons Group */
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form Section */
+.form-section {
+  margin-top: 40px;
+}
+
+/* No Expenses Message */
+.no-expense-message {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+  padding: 15px;
+  background-color: #fdfdfd;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Error Message */
+.error-message {
+  color: #d8000c;
+  background-color: #ffdddd;
+  padding: 6px 10px;
+  border-radius: 5px;
+  margin-top: 4px;
+  font-size: 0.9rem;
+}
+
+/* Input Wrapper */
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
